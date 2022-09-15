@@ -1,0 +1,14 @@
+html 
+link(rel="stylesheet" href="/css/auth.css")
+script(defer src="/js/auth.js")
+body 
+    .authContainer
+        h1 Уже зарегистрированы?
+        h2 Войдите в аккаунт
+        form(class = "authUser" action="/auth" class="authorisationForm")
+            label(for="login" class = "inputName") Введите логин
+            input(name="login" type="text" class = "formInput")
+            label(for="password" class = "inputName") Введите пароль
+            input(name="password" type="text" class = "formInput") 
+            button(type="submit") Войти
+            p(class="warning hidden")

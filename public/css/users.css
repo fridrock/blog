@@ -1,0 +1,11 @@
+.userContainer {
+    width: 30vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-size: 30px;
+}

@@ -1,0 +1,16 @@
+html 
+link(rel="stylesheet" href="/css/reg.css")
+script(defer src="/js/reg.js")
+body 
+    .regContainer
+        h1 Еще не зарегистрированы?
+        h2 Создайте аккаунт!
+        form(class = "regUser" action="/reg" class="registrationForm")
+            label(for="login" class = "inputName") Введите логин
+            input(name="login" type="text" class = "formInput")
+            label(for="password" class = "inputName") Введите пароль
+            input(name="password" type="text" class = "formInput") 
+            label(for="repeatPassword" class = "inputName")  Повторите пароль
+            input(name="repeatPassword" type="text" class = "formInput")
+            button(type="submit") Зарегистрироваться
+            p(class="warning hidden") Не совпадают пароль и его повтор
